@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Serif Pro', serif;
+  background-image: url('./images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  color: #224941;
+  
+}
+.header-section h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.input-section-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(47, 72, 123);
+}
+
+.input-heading {
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+.input-text {
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgb(111, 147, 244);
+  box-shadow: 2px 2px rgb(47, 72, 123);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.button-class {
+  width: 150px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: rgb(47, 72, 123);
+  border-radius: 30px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  line-height: 26px;
+}
+
+.display-section-class {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(47, 72, 123);
+}
+.icon {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.place,
+.country,
+.temperature,
+.description {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 10px 0;
+}
